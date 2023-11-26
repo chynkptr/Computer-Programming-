@@ -1,0 +1,134 @@
+Testing 
+-If the program gives the right output or working the same way as expected there are no bugs in it right
+
+Unit Testing 
+- if you write one module and you're going to check that module
+-when you are testing only a particular section of your code 
+-when when you are checking that there are no bugs in the module which you have written or for one particular objective of the entire program 
+-Apply only particular work which has been done by maybe one person or two people together 
+-checking only for the bugs in one particular module of the program
+
+System Testing 
+-if we have to check the entire application
+- going to check for everything at one go okay the entire system 
+
+Intregration Testing
+-trying to not only check unit not only system but maybe multiple systems together
+-how the integration of the multiple uh you know program which have been developed are they
+working fine are they passing the correct values to each other 
+-come by two units of testing, encoding you will not do like a system like everyone will do a
+unit and then when you connect the units together there may be some bugs 
+
+Debugging 
+-Fixing code/ we find some problems we debug the problem we try to fix the code.
+
+Black Box Testing
+-black box testing is you fixing the code without knowing the logic inside it is the input and the output 
+-they do not need phyton method
+-they just check the they give the input check the output make sure that the you know the code is running as expected 
+
+White Box Testing
+-You fixing it but you know the logic in it like the structure
+-Example: software engineer, programmar 
+-Not only check the output, but also going to check if the program has been 
+consistently written okay the program has been efficiently written 
+-Wherever the work could have been done using a single loop there are no nested loops
+-When the person who's testing the code not only just take input output but actually run through your
+entire program the logic and make sure that the program is adhering to the standard required from the company you understand
+
+Develop An Application
+- WATERFALL MODEL
+
+1. Requirement Gathering and analysis 
+-All possible requirements of the system to be developed are captured in this phase 
+and documented in a requirement specification document.
+-lot of documentation which is happening at this stage you understand the requirements you 
+make sure that the deliverables with the customer is expecting is met
+
+2. System Design
+-The requirement specifications from first phase are studied in this phase and the system design is prepared. 
+This system design helps in specifying hardwareand system requirements and helps in defining the overall system architecture.
+-The costumer whether they accept or reject the design and algorithm before coding
+
+3. Implementation
+-With inputs from the system design, the system is first developed in small programs called units, 
+which are integrated in the next phase. Each unit is developed and tested for its functionality,
+which is referred to as Unit Testing
+-Coding after the design and algorithm is accepted 
+
+4. Integration and Testing 
+-All the units developed in the implementation phase are integrated into a system after testing of each unit. 
+-Post integration the entire system is tested for any faults and failures.
+-would be done in a unit manner unit testing then maybe system testing and then maybe integration testing so here in this box 
+-you only see testing but definitely this will have a lot of phases unit system and integration
+
+5. Deployment of System 
+-Once the functional and non-functional testing is done; the product is deployed in the customer environment 
+or released into the market.
+-you install the package you give it to the customer to test it maybe they will 
+do some trial runs maybe they will maybe they will do a pro
+- they will try to see if the if the application is meeting the requirement what else what else will happen in that case
+-maybe there is some bugs there you will be there will be fixing of the bugs
+not only bugs but bugs will go into this maintenance part.
+
+6. Maintenance
+-There are some issues which come up in the client environment. To fix those issues, patches are released.
+Also to enhance the product some better versions are released. 
+Maintenance is done to deliver these changes in the customer environment.
+- keeping the system up to date with the actual requirements 
+making sure that you know if there is any new changes in the overall flow 
+- if there is any new changes in the input those changes have been incorporated
+-in the package so maintenance is a regular activity does not stop at any point of time
+-you cannot have a software which stops at the deployment
+-anything which stops at the deployment means it's going to get outdated very soon 
+so you have to make sure that the software is updated maintained keeping keeping the latest changes in the organization 
+into mind all those things has to be incorporated
+
+GOOD WATERFALL MODEL
+-Systematic :  we do not start with the next phase till the previous stage is completed perfectly.
+- Example, we should complete the requirements before making the design and we should get the design and alorithm are accepted 
+before the coding/implementation. 
+Every stage has own stage 
+-How long requirement analysis will take for a medium size project? 
+- What do would be the number of days for a requirement analysis approximately?
+Medium = 10-15 days 
+-How long the deisgn takes?
+10 days 
+-How long for implementation and development?
+2-3months
+-How long for testing?
+2 weeks or 15 days
+- How long for deployment?
+10 days or seven days a week
+
+BAD WATERFALL MODEL
+It is not really uh adaptive or cannot take care of the changes with the customer's want
+
+- ITERATIVE MODEL
+Iterative process starts with a simple implementation of a subset of the software requirements 
+and iteratively enhances the evolving versions until the full system is implemented. 
+At each iteration, design modifications are made and new functional capabilities are added. 
+The basic idea behind this method is to develop a system through repeated cycles (iterative) 
+and in smaller portions at a time (incremental).
+-In this stage the user repeatedly ask the costumer to understand the requirements 
+- you are trying to increment implement smaller portions of the project at a time
+-doing everything you know slowly slowly but at the same time ready to incorporate whatever the customer wants 
+okay so at the end of the project 
+you know exact you are delivering exactly what the customer is looking out for
+
+This is why software development life cycle of a waterfall model is not very 
+well accepted nowadays and people are adapting new models like iterative model.
+
+- AGILE MODEL 
+Agile SDLC model is a combination of iterative and incremental process models with focus on process adaptability 
+and customer satisfaction by rapid delivery of working software product. 
+Agile Methods break the product into small incremental builds. These builds are provided in iterations. 
+
+Each iteration typically lasts from about one to three weeks. 
+Every iteration involves cross functional teams working simultaneously on various areas like.
+At the end of the iteration, a working product is displayed to the customer and important stakeholders.
+
+-requirement designing testing everything in iteration one and then iteration two again 
+you do the planning requirement designing and again in iteration three you do that.
+
+This is a common method for these days.
